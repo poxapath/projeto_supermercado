@@ -1,17 +1,14 @@
-# projeto_supermercado
+# 🛒 Projeto Supermercado
 
-A new Flutter project.
+Aplicativo Flutter para gerenciamento de produtos de supermercado, com persistência local (SQLite) e API remota (Flask + PostgreSQL no Render). 
 
-## Getting Started
+# Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Cadastro, listagem, edição e exclusão de produtos
+- Filtro por categoria e busca por nome
+- Persistência local com SQLite (offline-first)
+- Integração com API REST publicada no Render
+- Indicador de status online/offline
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Integrantes
+Patricia Nogueira Dias
