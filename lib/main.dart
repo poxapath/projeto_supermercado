@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/supermercado/lista.dart';
+import 'theme/app_theme.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(const SupermercadoApp());
@@ -11,18 +12,10 @@ class SupermercadoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Supermercado',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        // REQUISITO: Material 3 (useMaterial3: true)
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
-        appBarTheme: const AppBarTheme(
-          centerTitle: true,
-          backgroundColor: Colors.green,
-          foregroundColor: Colors.white,
-        ),
-      ),
-      home: ListaSupermercado(),
+      theme: AppTheme.theme,
+      home: const HomeScreen(),
     );
   }
 }
