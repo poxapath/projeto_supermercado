@@ -5,7 +5,7 @@ import '../models/produto.dart';
 /// Repositório remoto — consome a API publicada no Render.
 class ProdutoApiRepository {
   // ⚠️  Troque pela URL real após subir no Render
-  static const String _baseUrl = 'https://SEU-APP.onrender.com';
+  static const String _baseUrl = 'https://supermercado-api-mkqz.onrender.com';
 
   final http.Client _client;
   ProdutoApiRepository({http.Client? client}) : _client = client ?? http.Client();
